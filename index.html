@@ -226,7 +226,7 @@ const sections = [
     questions: [
       { id: "1_1", q: "How long have you been involved in trading (in any market)?", type: "short" },
       { id: "1_2", q: "Which markets have you traded in? (You can select multiple)", type: "short" },
-      { id: "1_3", q: "Have you already traded crypto futures in the past?", type: "short" },
+      { id: "1_3", q: "Have you already traded Forex in the past?", type: "short" },
       { id: "1_4", q: "Roughly how many hours per week do you invest in trading or learning about trading?", type: "short" },
       { id: "1_5", q: "How have you learned trading up until today?", type: "long" },
       { id: "1_6", q: "Who did you learn from, or which traders/content creators do you follow (if any)?", type: "short" },
@@ -236,9 +236,9 @@ const sections = [
   {
     title: "Part 2 – Technical Knowledge",
     questions: [
-      { id: "2_1", q: "Explain in your own words what leverage is.", type: "long" },
+      { id: "2_1", q: "Explain in your own words what leverage is and what is lot.", type: "long" },
       { id: "2_2", q: "What is liquidation and what happens when a trade gets liquidated?", type: "long" },
-      { id: "2_3", q: "What is Funding Rate in futures?", type: "long" },
+      { id: "2_3", q: "What is Spread?", type: "long" },
       { id: "2_4", q: "What tools do you use for chart analysis?", type: "long" },
       { id: "2_5", q: "How well do you understand market structure?", type: "scale" },
       { id: "2_6", q: "Which types of orders do you know or use?", type: "single",
@@ -276,12 +276,12 @@ const sections = [
     title: "Part 5 – Goals & Expectations",
     questions: [
       { id: "5_1", q: "Why do you want to be a trader?", type: "long" },
-      { id: "5_2", q: "Why do you want to learn crypto futures?", type: "long" },
+      { id: "5_2", q: "Why do you want to learn Forex trading?", type: "long" },
       { id: "5_3", q: "What is your financial goal from trading?", type: "single",
         options: ["Side income","Replace my job","Build wealth","Quick profits","Learn the field","Other"] },
       { id: "5_4", q: "How much time per week can you actually invest in learning and trading?", type: "long" },
-      { id: "5_5", q: "What do you expect from the mentorship with me?", type: "long" },
-      { id: "5_6", q: "How do you prefer to learn?", type: "long" },
+      { id: "5_5", q: "What do you expect from the lesson with me?", type: "long" },
+      { id: "5_6", q: "Are you open to continue to a full mentorship after the lesson?", type: "long" },
     ],
   },
   {
@@ -296,7 +296,7 @@ const sections = [
   {
     title: "Part 7 – Scenario Questions (Very Important)",
     questions: [
-      { id: "7_1", q: "You entered a long position and the price drops almost to your stop. What do you do?", type: "single",
+      { id: "7_1", q: "You entered a Buy position and the price drops almost to your stop. What do you do?", type: "single",
         options: ["Close early","Let the stop get hit","Move the stop","Add to the position","Close and flip to short","Remove the stop entirely"] },
       { id: "7_1b", q: "Explain your answer:", type: "long" },
       { id: "7_2", q: "The price consolidates below resistance for a long time and then breaks out strongly upward. What do you do?", type: "single",
